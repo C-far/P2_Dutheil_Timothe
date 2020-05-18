@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+    .container {
+        width: 62.48vw;
+    }
+
+    .banner {
+        font-size: 20px;
+    }
+
+    .about-block {
+        font-size: 14px;
+    }
+
+    .super-title {
+        font-size: 30px;
+    }
+
+    .super-title i {
+        margin-right:30px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+    .job {
+        font-size:20px;
+    }
+
+    .infos-block .infos-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100vw;
+    }
+
+    .banner {
+        font-size: 14px;
+    }
+
+    .contact-row {
+        font-size: 12px;
+    }
+
+    .about-block {
+        font-size: 12px;
+    }
+
+    .super-title {
+        font-size: 18px;
+    }
+
+    .super-title i {
+        margin-right:5px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .job {
+        font-size:14px;
+    }
+
+    .infos-block td:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .infos-block .infos-title {
+        font-size: 12px;
+    }
+
+    .infos-block .infos-subtitle {
+        font-size: 12px;
+    }
+
+    .infos-block .infos-content {
+        font-size: 12px;
+    }
+}
+
+.container {
+    height: 100%;
+    margin:auto;
+    display: flex;
+}
+
+.content-left {
+    width: 32.29%;
+    border-top: solid 2px #CEB24A;
+    border-bottom: solid 2px #CEB24A;
+    border-left: solid 2px #CEB24A;
+    background-color: #FECA07;
+    position: left;
+}
+
+.content-right {
+    position: right;
+    border-right: solid 2px #CFCFCF;
+    border-bottom: solid 2px #CFCFCF;
+    border-top: solid 2px #CFCFCF;
+    width: 67.71%;
+    background-color: #FFFFFF;
+    padding-left:7.81637717122%;
+}
+
+.content-left > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    margin-bottom: 44px;
+    height: auto;
+    width: 55.95%;
+    box-shadow: 0 0 0 2pt #DAAF12;
+    border-radius: 50%;
+}
+
+.banner {
+    height: 48px;
+    width: 100%;
+    background-color: #404040;
+    color: #FECA07;
+    box-shadow: -2px 0px 0px 0px #696969;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact, .content-left > .about {
+    margin-bottom: 36px;
+}
+
+.contact-block {
+    list-style: none;
+    color: #404040;
+    padding-left: 12%;
+    font-size: 14px;
+}
+
+.contact-block li:not(:last-child) {
+    margin-bottom: 22px;
+}
+
+.contact-block li:last-child {
+    margin-bottom: 50px;
+}
+
+.about-block {
+    color: #404040;
+    padding-left: 12%;
+    padding-right: 12%;
+    line-height: 22px;
+}
+
+.name {
+    margin-top:100px;
+    text-transform: uppercase;
+}
+
+.name span {
+    color:#FECA07;
+}
+
+.job {
+    color: #4A4A4A;
+    font-weight: bolder;
+    margin-left:2px;
+}
+
+.job-sidebar {
+    width: 78px;
+    height: 2px;
+    background-color: #FECA07;
+    margin-top:2px;
+    margin-bottom: 125px;
+}
+
+.super-title {
+    text-transform: uppercase;
+}
+
+.super-title i {
+    color:#FECA07;
+}
+
+.super-title-sidebar {
+    width: 90%;
+    height: 2px;
+    background-color: #FECA07;
+    margin-top:2px;
+    margin-bottom: 40px;
+}
+
+.infos-block {
+    margin-bottom:74px;
+}
+
+.infos-block tr.spacer {
+    height:45px;
+}
+
+.infos-block td:first-child {
+    vertical-align:top;
+    padding-top:3px;
+    padding-right:16px;
+}
+
+.infos-block td:nth-child(2) {
+    vertical-align:top;
+    font-weight:bold;
+    color: #4A4A4A;
+    width:210px;
+}
+
+.infos-block td:last-child {
+    vertical-align:top;
+    padding-top:3px;
+    padding-right:16px;
+    width: 430px;
+}
+
+.infos-block td i {
+    color:#FECA07;
+}
+
+.infos-block .infos-title {
+    text-transform: uppercase;
+    font-weight:bold;
+    color: #4A4A4A;
+    margin-bottom:5px;
+}
+
+.infos-block .infos-subtitle {
+    color: #4A4A4A;
+    margin-bottom:10px;
+}
+
+.infos-block .infos-content {
+    color: #4A4A4A;
+    line-height:1.4;
+}
