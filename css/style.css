@@ -5,7 +5,7 @@
 }
 
 @media screen and (min-width: 1193px) {
-    .container {
+    main {
         width: 62.48vw;
     }
 
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 1192px) {
-    .container {
+    main {
         width: 100vw;
         flex-wrap:wrap;
     }
@@ -44,7 +44,7 @@
     }
 }
 
-.container {
+main {
     height: 100%;
     margin:auto;
     display: flex;
