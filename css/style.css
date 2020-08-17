@@ -12,6 +12,16 @@
     .super-title i {
         margin-right:30px;
     }
+
+    .contact-block, .about-block {
+        font-size: 14px;
+    }
+
+    .force-bottom {
+        bottom:0;
+        width:100%;
+        position:absolute;
+    }
 }
 
 @media screen and (max-width: 1192px) {
@@ -56,7 +66,7 @@ main {
     border-bottom: solid 2px #CEB24A;
     border-left: solid 2px #CEB24A;
     background-color: #FECA07;
-    position: left;
+    position:relative;
 }
 
 .content-right {
@@ -91,9 +101,6 @@ main {
     line-height: 48px;
     text-align: center;
     text-transform: uppercase;
-}
-
-.contact, .content-left > .about {
     margin-bottom: 36px;
 }
 
@@ -101,23 +108,39 @@ main {
     list-style: none;
     color: #404040;
     padding-left: 12%;
-    font-size: 14px;
+    margin-bottom: 50px;
 }
 
 .contact-block li:not(:last-child) {
     margin-bottom: 22px;
 }
 
-.contact-block li:last-child {
-    margin-bottom: 50px;
-}
-
 .about-block {
-    font-size: 14px;
     color: #404040;
     padding-left: 12%;
     padding-right: 12%;
     line-height: 22px;
+    margin-bottom: 50px;
+}
+
+.hobbies-block {
+    margin-top:-36px;
+}
+
+.hobbies-block ul {
+    list-style: none;
+    text-align:center;
+    font-size:0;
+    color:#404040;
+}
+
+.hobbies-block ul li {
+    display:inline-block;
+    border-radius: 50%;
+    border:2px solid #404040;
+    font-size:30px;
+    margin:24px 6px 24px 6px;
+    padding:5px;
 }
 
 .name {
@@ -211,4 +234,24 @@ main {
 
 .infos-block .infos-title {
     font-size: 24px;
+}
+
+.recommendations-content-block {
+    color:#404040;
+    display:inline-block;
+    margin-bottom:50px;
+}
+
+.recommendations-content-block:first-child {
+    margin-right:8vw;
+}
+
+.recommendations-name {
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.recommendations-job, .recommendations-phone {
+    font-weight:bold;
+    margin-bottom:5px;
 }
